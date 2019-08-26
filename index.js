@@ -19,6 +19,8 @@ function addNewLiOnClick(){
     $('input:text').attr("value", "");
 });
 }
+
+function 
 //let submit = document.querySelector('input[type//="submit"]')
 //submit.addEventListener("click", addNewLiOnClick); 
 preventRefreshOnSubmit()
