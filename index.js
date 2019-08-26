@@ -14,7 +14,7 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  addNewElementAsLi();
+  
   $('input').val("");
 }
 document.body.addEventListener("click", addNewLiOnClick); 
