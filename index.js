@@ -20,7 +20,9 @@ function addNewLiOnClick(){
 });
 }
 
-function 
+function clearEmployeeListOnLinkClick(){
+  
+}
 //let submit = document.querySelector('input[type//="submit"]')
 //submit.addEventListener("click", addNewLiOnClick); 
 preventRefreshOnSubmit()
