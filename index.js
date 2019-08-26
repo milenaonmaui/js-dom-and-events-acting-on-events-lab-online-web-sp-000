@@ -14,7 +14,7 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  $('input:submit').on('click', function(){
+  $('input:submit').click(function(){
     addNewElementAsLi();
     $('input:text').attr("value", "");
 });
