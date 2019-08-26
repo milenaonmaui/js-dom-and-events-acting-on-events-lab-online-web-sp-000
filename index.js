@@ -7,4 +7,9 @@ function preventRefreshOnSubmit(){
 function retrieveEmployeeInformation(){
   return $('input').val()
 }
+
+function addNewElementAsLi(){
+  const newItem = retrieveEmployeeInformation()
+  $('.employee-list').append("<li>")
+}
 preventRefreshOnSubmit()
