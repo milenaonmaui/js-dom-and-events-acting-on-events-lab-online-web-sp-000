@@ -21,7 +21,9 @@ function addNewLiOnClick(){
 }
 
 function clearEmployeeListOnLinkClick(){
-  
+  $('a').click(function(){
+    $('li').
+  })
 }
 //let submit = document.querySelector('input[type//="submit"]')
 //submit.addEventListener("click", addNewLiOnClick); 
