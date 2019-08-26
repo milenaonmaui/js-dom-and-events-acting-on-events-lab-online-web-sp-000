@@ -22,7 +22,7 @@ function addNewLiOnClick(){
 
 function clearEmployeeListOnLinkClick(){
   $('a').click(function(){
-    $('li').
+    $('ul').empty()
   })
 }
 //let submit = document.querySelector('input[type//="submit"]')
