@@ -12,5 +12,7 @@ function addNewElementAsLi(){
   const newItem = retrieveEmployeeInformation()
   $('.employee-list').append("<li>" +newItem + "</li")
 }
-function add
+function addNewLiOnClick(){
+  
+}
 preventRefreshOnSubmit()
