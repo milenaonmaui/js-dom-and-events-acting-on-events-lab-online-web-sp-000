@@ -10,6 +10,7 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
   const newItem = retrieveEmployeeInformation()
-  $('.employee-list').append("<li>")
+  $('.employee-list').append("<li>" +newItem + "</li")
 }
+
 preventRefreshOnSubmit()
