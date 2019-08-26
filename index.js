@@ -25,6 +25,7 @@ function clearEmployeeListOnLinkClick(){
     $('ul').empty()
   })
 }
+
 //let submit = document.querySelector('input[type//="submit"]')
 //submit.addEventListener("click", addNewLiOnClick); 
 preventRefreshOnSubmit()
