@@ -13,6 +13,9 @@ function addNewElementAsLi(){
   $('.employee-list').append("<li>" +newItem + "</li")
 }
 
-
+function addNewLiOnClick(){
+  addNewElementAsLi();
+  $('input').val("")
+}
 document.body.addEventListener("click", addNewLiOnClick); 
 preventRefreshOnSubmit()
