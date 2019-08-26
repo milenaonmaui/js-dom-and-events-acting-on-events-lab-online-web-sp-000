@@ -17,6 +17,6 @@ function addNewLiOnClick(){
   addNewElementAsLi();
   $('input').val("")
 }
-
-document.body.addEventListener("click", addNewLiOnClick); 
+let submit = document.querySelector('input[type="submit"]')
+submit.addEventListener("click", addNewLiOnClick); 
 preventRefreshOnSubmit()
