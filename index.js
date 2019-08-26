@@ -14,9 +14,11 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  addNewElementAsLi();
-  $('input:text').attr("value", "");
+  $('input:submit').on('click', function(){
+    addNewElementAsLi();
+    $('input:text').attr("value", "");
+});
 }
-let submit = document.querySelector('input[type="submit"]')
-submit.addEventListener("click", addNewLiOnClick); 
+//let submit = document.querySelector('input[type//="submit"]')
+//submit.addEventListener("click", addNewLiOnClick); 
 preventRefreshOnSubmit()
